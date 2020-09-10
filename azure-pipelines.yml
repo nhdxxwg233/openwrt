@@ -79,7 +79,6 @@ jobs:
         # 
 
         sed -i 's/^[ \t]*//g' ./.config
-        make defconfig
       workingDirectory: '$(Agent.BuildDirectory)/s'
 
   - task: CmdLine@2
